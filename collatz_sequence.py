@@ -1,10 +1,6 @@
 def collatzSequence(number):
-    # Return a collatz sequence
-
-    if number == 1:
-        return
-        
-    elif number <= 0:
+    
+    if number == 1 or number <= 0:
         return
     
     if number % 2 == 0:
@@ -18,6 +14,15 @@ def collatzSequence(number):
     return collatzSequence(new_number)
 
 
-n = int(input('Enter any digit: '))
+if __name__ == '__main__':
 
-collatzSequence(n)
+    try:
+        n = int(input('Enter any digit: '))
+        collatzSequence(n)
+    
+    except Exception as e:
+        print(e)
+        n = int(input('Enter any digit: '))
+        collatzSequence(n)
+
+    
