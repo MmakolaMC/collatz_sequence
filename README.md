@@ -8,4 +8,4 @@
 
 ## To start:
 
-run `git clone https://github.com/MmakolaMC/collatz_sequence.git` to create a local repo, and enjoy playing around with numbers.
+run `git clone https://github.com/MmakolaMC/collatz_sequence.git` in your terminal to create a local repo, and enjoy playing around with numbers.
