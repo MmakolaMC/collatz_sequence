@@ -3,7 +3,7 @@
 > The collatz sequence, also called the `3n + 1` problem is the simplest impossible math problem.
 
 > - If `n` is even, the next number is `n/2`
-> - If `n` is odd, the next number is ``3n + 1`
+> - If `n` is odd, the next number is `3n + 1`
 > - if `n` is 1 stop, otherwise repeat
 
 ## To start:
